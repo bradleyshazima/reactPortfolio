@@ -1,9 +1,20 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+import {About, Contact, Experience, Footer, Header, Nav, Portfolio, Testimonials, Services} from './components'
+
+const App = () => (
+  <div>
+    <Header />
+    <Nav />
+    <About />
+    <Experience />
+    <Services />
+    <Portfolio />
+    <Testimonials />
+    <Contact />
+    <Footer />
+  </div>
+)
+
 
 export default App
